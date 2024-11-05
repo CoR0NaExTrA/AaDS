@@ -17,10 +17,9 @@ private:
     Spy* front;
     Spy* rear;
     int elapsedTime;
-    int spyCount;
 
 public:
-    SpyQueue() : front(nullptr), rear(nullptr), elapsedTime(0), spyCount(0) {}
+    SpyQueue() : front(nullptr), rear(nullptr), elapsedTime(0) {}
 
     void enqueue(const std::string& name, int observationTime, int maxWaitTime) {
         if (observationTime <= 0 || maxWaitTime <= 0) {
@@ -36,19 +35,9 @@ public:
             front = newSpy;
         }
         rear = newSpy;
-        spyCount++;
     }
 
     void processSpies() {
-        if (spyCount == 1 && front) {
-            std::cout << front->name << " наблюдает за объектом.\n";
-            std::cout << front->name << " покидает очередь (время ожидания истекло).\n";
-            delete front;
-            front = rear = nullptr;
-            spyCount = 0;
-            return;
-        }
-
         while (front) {
             elapsedTime++;
             if (front->maxWaitTime < elapsedTime) {
@@ -56,7 +45,6 @@ public:
                 Spy* temp = front;
                 front = front->next;
                 delete temp;
-                spyCount--;
                 if (!front) rear = nullptr;
                 continue;
             }
