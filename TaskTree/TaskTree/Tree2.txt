@@ -1,0 +1,13 @@
+root
+  folder1
+    subfolder1
+      file1.txt
+    subfolder2
+      file2.doc
+  folder2
+    file3.doc
+    subfolder3
+      file4.txt
+  folder3
+    subfolder4
+      file5.doc
