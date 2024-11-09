@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Zzenam\\source\\repos\\TaskTree\\",
+  "WorkspaceRootPath": "C:\\Users\\Zzenam\\AaDS\\AaDS\\TaskTree\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24D1EC39-1E54-401B-AD93-5C2F40E34B10}|TaskTree\\TaskTree.vcxproj|C:\\Users\\Zzenam\\source\\repos\\TaskTree\\TaskTree\\TaskTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{24D1EC39-1E54-401B-AD93-5C2F40E34B10}|TaskTree\\TaskTree.vcxproj|C:\\Users\\Zzenam\\AaDS\\AaDS\\TaskTree\\TaskTree\\TaskTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{24D1EC39-1E54-401B-AD93-5C2F40E34B10}|TaskTree\\TaskTree.vcxproj|solutionrelative:TaskTree\\TaskTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,13 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "TaskTree.cpp",
-              "DocumentMoniker": "C:\\Users\\Zzenam\\source\\repos\\TaskTree\\TaskTree\\TaskTree.cpp",
+              "DocumentMoniker": "C:\\Users\\Zzenam\\AaDS\\AaDS\\TaskTree\\TaskTree\\TaskTree.cpp",
               "RelativeDocumentMoniker": "TaskTree\\TaskTree.cpp",
-              "ToolTip": "C:\\Users\\Zzenam\\source\\repos\\TaskTree\\TaskTree\\TaskTree.cpp",
+              "ToolTip": "C:\\Users\\Zzenam\\AaDS\\AaDS\\TaskTree\\TaskTree\\TaskTree.cpp",
               "RelativeToolTip": "TaskTree\\TaskTree.cpp",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAUwIcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-03T18:13:39.793Z",
+              "WhenOpened": "2024-11-08T19:28:29.619Z",
               "EditorCaption": ""
             }
           ]

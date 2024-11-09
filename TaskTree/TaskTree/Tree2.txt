@@ -3,11 +3,14 @@ root
     subfolder1
       file1.txt
     subfolder2
-      file2.doc
-  folder2
-    file3.doc
-    subfolder3
-      file4.txt
-  folder3
-    subfolder4
-      file5.doc
+      subfolder3
+        subfolder4
+          subfolder5
+            subfolder6
+              subfolder7
+                subfolder8
+                  subfolder9
+                    subfolder8
+                       subfolder8
+                         
+                                                            file10.cpp

@@ -31,6 +31,8 @@ void LoadTreeFromFile(Node* root, const std::string& filename) {
     std::vector<Node*> node_stack = { root };
     int prev_indent = 0;
 
+    bool isRootNameSet = false; // Флаг, указывающий, задано ли имя корня
+
     while (std::getline(file, line)) {
         // Определяем количество отступов
         int indent = line.find_first_not_of(" ");
@@ -38,6 +40,12 @@ void LoadTreeFromFile(Node* root, const std::string& filename) {
             continue;
         }
         std::string name = line.substr(indent);
+
+        if (!isRootNameSet) {
+            root->name = name;
+            isRootNameSet = true;
+            continue; // Пропускаем создание нового узла для корня
+        }
 
         // Создаем новый узел
         Node* new_node = new Node(name);
@@ -108,8 +116,12 @@ int main() {
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
 
-    Node* root = new Node("root");
-    LoadTreeFromFile(root, "Tree2.txt");
+    std::string inputFileName;
+    std::cout << "Введите имя файла с деревом: ";
+    std::cin >> inputFileName;
+
+    Node* root = new Node("");
+    LoadTreeFromFile(root, inputFileName);
 
     std::cout << "Исходное дерево:\n";
     DisplayTree(root);
@@ -118,7 +130,13 @@ int main() {
     Node* filtered_root = FilterCppFolders(root);
 
     std::cout << "\nДерево с папками, содержащими `.cpp` файлы:\n";
-    DisplayTree(filtered_root);
+    if (filtered_root) {
+        DisplayTree(filtered_root);
+    }
+    else {
+        // Если нет папок с `.cpp` файлами, отображаем только корень
+        std::cout << "root (no .cpp files found)" << std::endl;
+    }
 
     // Удаление деревьев для предотвращения утечек памяти
     delete root;
