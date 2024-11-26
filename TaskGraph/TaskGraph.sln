@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TaskGraph", "TaskGraph\TaskGraph.vcxproj", "{50548A80-647D-4C2D-B67D-A71663952E30}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50548A80-647D-4C2D-B67D-A71663952E30}.Debug|x64.ActiveCfg = Debug|x64
+		{50548A80-647D-4C2D-B67D-A71663952E30}.Debug|x64.Build.0 = Debug|x64
+		{50548A80-647D-4C2D-B67D-A71663952E30}.Debug|x86.ActiveCfg = Debug|Win32
+		{50548A80-647D-4C2D-B67D-A71663952E30}.Debug|x86.Build.0 = Debug|Win32
+		{50548A80-647D-4C2D-B67D-A71663952E30}.Release|x64.ActiveCfg = Release|x64
+		{50548A80-647D-4C2D-B67D-A71663952E30}.Release|x64.Build.0 = Release|x64
+		{50548A80-647D-4C2D-B67D-A71663952E30}.Release|x86.ActiveCfg = Release|Win32
+		{50548A80-647D-4C2D-B67D-A71663952E30}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5170FEB-087C-446D-9856-286EA66F2855}
+	EndGlobalSection
+EndGlobal
