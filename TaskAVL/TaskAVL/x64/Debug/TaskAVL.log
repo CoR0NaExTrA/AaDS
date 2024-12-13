@@ -1,0 +1,3 @@
+﻿  TaskAVL.cpp
+C:\Users\Zzenam\source\repos\TaskAVL\TaskAVL\TaskAVL.cpp(219,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  TaskAVL.vcxproj -> C:\Users\Zzenam\source\repos\TaskAVL\x64\Debug\TaskAVL.exe
